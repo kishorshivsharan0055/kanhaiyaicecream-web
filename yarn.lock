@@ -4948,6 +4948,11 @@ webpack@4.44.1:
     watchpack "^1.7.4"
     webpack-sources "^1.4.1"
 
+whatsapp-api-for-react@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/whatsapp-api-for-react/-/whatsapp-api-for-react-1.0.0.tgz#ac45b678b9b8dd4b6ea5a07c6fd36fb458de7e75"
+  integrity sha512-6kT7m39Mk9zSEbZDqMy0TQhsNvGp2EkAW+Zc8yB3gYDKpPevbynPmpedy+O348utWmLYlfvxlCj97WkgE8rmoA==
+
 whatwg-url@^7.0.0:
   version "7.1.0"
   resolved "https://registry.yarnpkg.com/whatwg-url/-/whatwg-url-7.1.0.tgz#c2c492f1eca612988efd3d2266be1b9fc6170d06"
