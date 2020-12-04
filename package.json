@@ -19,8 +19,7 @@
     "react-animated-slider": "^2.0.0",
     "react-dom": "17.0.1",
     "react-whatsapp": "^0.2.0",
-    "tailwindcss": "^2.0.1",
-    "whatsapp-api-for-react": "^1.0.0"
+    "tailwindcss": "^2.0.1"
   },
   "devDependencies": {
     "@types/node": "^14.14.10",
