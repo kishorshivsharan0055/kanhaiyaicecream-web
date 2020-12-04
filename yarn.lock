@@ -3927,6 +3927,11 @@ react-transition-group@^4.4.0:
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
 
+react-whatsapp@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/react-whatsapp/-/react-whatsapp-0.2.0.tgz#31307c60949829ae80da20deae2e69e46312eb1b"
+  integrity sha512-hlWhxNP1fHH/2lxcS3jgKlHXVsQbM51LuTlz38cCzm4cxtrPyVlfa6QEEfB5agjG5EJ4wlkFAauGwBtu39huXQ==
+
 react@17.0.1:
   version "17.0.1"
   resolved "https://registry.yarnpkg.com/react/-/react-17.0.1.tgz#6e0600416bd57574e3f86d92edba3d9008726127"
