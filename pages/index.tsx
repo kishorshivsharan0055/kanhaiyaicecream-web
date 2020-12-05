@@ -1,8 +1,10 @@
 import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
 import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 import ReactWhatsapp from "react-whatsapp";
+import ContactForm from "../components/contactForm";
+import Footer from "../components/Footer";
 import { NavBar } from "../components/NavBar";
-import { Products } from "../components/products";
+import { ProductsSection } from "../components/productsSection";
 import { SliderCorousal } from "../components/slider";
 import { PHONE_NO } from "../contants";
 
@@ -24,16 +26,16 @@ const useStyles = makeStyles((theme: Theme) =>
     },
   })
 );
-const style = {
-  margin: 0,
-  top: "auto",
-  right: 20,
-  bottom: 20,
-  left: "auto",
-  position: "fixed",
-  color: "RGB(255, 255, 255)",
-  backgroundColor: "#2E8B57",
-};
+// const style = {
+//   margin: 0,
+//   top: "auto",
+//   right: 20,
+//   bottom: 20,
+//   left: "auto",
+//   position: "fixed",
+//   color: "RGB(255, 255, 255)",
+//   backgroundColor: "#2E8B57",
+// };
 
 export default function Home() {
   const classes = useStyles();
@@ -42,7 +44,7 @@ export default function Home() {
     <>
       <NavBar />
       <SliderCorousal />
-      <Products />
+      <ProductsSection />
 
       <div
         style={{
@@ -66,6 +68,11 @@ export default function Home() {
           }
         />
       </div>
+
+      <div className="items-center mb-5 pl-5 pr-5">
+        <ContactForm />
+      </div>
+      <Footer />
     </>
   );
 }
