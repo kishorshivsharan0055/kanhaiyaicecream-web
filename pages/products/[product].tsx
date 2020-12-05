@@ -50,7 +50,7 @@ export const ProductPage: React.FC = ({}) => {
       <NavBar />
       <div
         style={{
-          backgroundImage: `url(${data[productId].img})`,
+          // backgroundImage: `url(${data[productId].img})`,
           backgroundSize: "cover",
           height: 500,
         }}
