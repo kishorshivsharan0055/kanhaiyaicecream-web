@@ -3,8 +3,8 @@ import { ProductDetails } from "../types";
 export const data: Array<ProductDetails> = [
   {
     product_id: 1,
-    title: "Spices",
-    img:
+    main_title: "Spices",
+    main_img:
       "https://samispices.com/wp-content/uploads/2019/05/samispices-home-02.jpg",
     description:
       "Spices and aromatics are the  heart of India. The trade of spices has been an extraordinarily influential factor with an infinite variety of flavors: sweet, sharp, hot, sour, spicy, aromatic, tart, mild, fragrant or pungent, spices are always a striking product for us. The beauty is that Indian spices provide significant health benefits and contribute towards an individual’s healthy life. As an easily available product in India, we’ve already deepened our hands in the Indian market of spices making promising partnerships with dealers.",
@@ -113,8 +113,8 @@ export const data: Array<ProductDetails> = [
   },
   {
     product_id: 2,
-    title: "Fruits",
-    img: "https://i.dlpng.com/static/png/6960842_preview.png",
+    main_title: "Fruits",
+    main_img: "https://i.dlpng.com/static/png/6960842_preview.png",
     description:
       "India is the heavy producer of Fruits in the world and is known as the fruit basket of the world. The major fruits grown in India are Mangos, Grapes, Apple, Apricots, Orange, Banana Fresh, Avocados, Guava, lychee, Papaya, Sapota, and Water Melons which have plenty of demand worldwide. We have already established a base in the major fruit-growing states so that we can easily make rarer fruits available no matter what. No importers of ours have to worry about the high demand he offered. Talking about the seasonal fruits that they are simply at a peak in terms of harvest and flavor in a particular season. Eating fruits in their respective seasons has several benefits ranging from economic, nutritional, and even taste.",
     semidescription: "Our Roots Are With Fruits",
@@ -202,8 +202,8 @@ export const data: Array<ProductDetails> = [
 
   {
     product_id: 3,
-    title: "Vegetables",
-    img:
+    main_title: "Vegetables",
+    main_img:
       "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/shopping-bag-full-of-fresh-vegetables-and-fruits-royalty-free-image-1128687123-1564523576.jpg",
     description:
       "India ranks second in fruits and vegetable production in the world. We are agreed on the category because vegetables are comfortably available and we are confident in quality as always similar to our past products. Indian vegetables are always on demand in the field and Imexplore’s team tried their best to spread connection through the Indian vegetable market for fresh and quality products. The vast production base offers us tremendous export opportunities. Whatever the season is, availability is never an issue for us because India’s diverse climate ensures the availability of all varieties of fresh vegetables. Some of our best products are potatoes, carrot, broccoli, onions, and furthermore are listed below. ",
@@ -271,8 +271,8 @@ export const data: Array<ProductDetails> = [
   },
   {
     product_id: 4,
-    title: "Dry Fruits",
-    img:
+    main_title: "Dry Fruits",
+    main_img:
       "https://www.fennysdryfruits.com/wp-content/uploads/2019/10/banner1.jpg",
     description:
       "India offers a unique opportunity to fulfill the needs of consumers worldwide. With 20 types of dry fruits, we see a great scope to complete the customer’s needs reason we added the dry fruits category. As the increasing demand for dry fruits worldwide, Imexplore has already built a strong presence and captured the attention of customers. Consumers are now cleverly adding nuts and dried fruits as a new inclusion in their eating regime. Our experts know which region needs what types of product gives us sufficient time to check availability for the product. With plenty of applications mainly in the nutrition industry, we are thinking of dry fruits become our majority products.",
@@ -322,8 +322,8 @@ export const data: Array<ProductDetails> = [
   },
   {
     product_id: 5,
-    title: "Pulses",
-    img:
+    main_title: "Pulses",
+    main_img:
       "https://i.pinimg.com/originals/28/93/7e/28937e356d072c29cb139ebdfe97c133.gif",
     description:
       "Indian pulses are usually available in three types: the whole pulse, the split pulse with the skin on, and the split pulse with the skin removed. India is home to many different varieties of lentils, dried beans, pulses, and legumes and currently growing the production opening export opportunities. Indian pulse production is concentrated in a few states; Madhya Pradesh, Maharashtra, Rajasthan, Uttar Pradesh, Andhra Pradesh, and Karnataka accounted for nearly 80% of the total area that produces and harvests pulses. As Asian markets showed a decrease in imports of pulses, Imexplore’s team will try to export the Indian pulses market to other continents.",
@@ -353,8 +353,8 @@ export const data: Array<ProductDetails> = [
   },
   {
     product_id: 6,
-    title: "Cereals",
-    img:
+    main_title: "Cereals",
+    main_img:
       "https://previews.123rf.com/images/rakratchada/rakratchada1212/rakratchada121200031/16647013-top-views-grain-and-cereal-set-rice-red-rice-wheat-.jpg",
     description:
       "India is not only the largest producer of cereal but also the largest exporter of the cereal field. The huge demand for cereals in the global market is creating an excellent environment for the export of Indian exporters. The most common cereals and millets are grown in India are rice, wheat, maize, jawar, and ragi. In the next few years, Economic and population growth are going to increase the demand for food. The structure of demand is also changing so as the diet. These changing phases are going to affect the supply-demand chain of food products. As an early bird Imexplore would have established its foot deep in the market until the time comes. Our early arrival will advantage us and our clients in near future for sure.",

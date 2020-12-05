@@ -1,7 +1,7 @@
 export type ProductDetails = {
   product_id: number;
-  title: string;
-  img: string;
+  main_title: string;
+  main_img: string;
   description: string;
   semidescription: string;
   subproducts: Array<{

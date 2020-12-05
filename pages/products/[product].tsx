@@ -50,14 +50,14 @@ export const ProductPage: React.FC = ({}) => {
       <NavBar />
       <div
         style={{
-          // backgroundImage: `url(${data[productId].img})`,
+          backgroundImage: `url('${data[productId].main_img}')`,
           backgroundSize: "cover",
           height: 500,
         }}
         className="pt-20"
       >
         <div className="content-center text-center text-black-500 text-8xl pt-10 font-semibold">
-          {data[productId - 1].title}
+          {data[productId - 1].main_title}
         </div>
       </div>
 
