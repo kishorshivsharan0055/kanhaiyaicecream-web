@@ -1,4 +1,6 @@
-export const data = [
+import { ProductDetails } from "../types";
+
+export const data: Array<ProductDetails> = [
   {
     product_id: 1,
     title: "Spices",
