@@ -114,7 +114,8 @@ export const ProductData: Array<ProductDetails> = [
   {
     product_id: 2,
     main_title: "Fruits",
-    main_img: "https://i.dlpng.com/static/png/6960842_preview.png",
+    main_img:
+      "https://www.diagnosisdiet.com/assets/images/c/fruit-og-d176ef00.jpg",
     description:
       "India is the heavy producer of Fruits in the world and is known as the fruit basket of the world. The major fruits grown in India are Mangos, Grapes, Apple, Apricots, Orange, Banana Fresh, Avocados, Guava, lychee, Papaya, Sapota, and Water Melons which have plenty of demand worldwide. We have already established a base in the major fruit-growing states so that we can easily make rarer fruits available no matter what. No importers of ours have to worry about the high demand he offered. Talking about the seasonal fruits that they are simply at a peak in terms of harvest and flavor in a particular season. Eating fruits in their respective seasons has several benefits ranging from economic, nutritional, and even taste.",
     semidescription: "Our Roots Are With Fruits",

@@ -107,6 +107,7 @@ button:hover {
 .wrapper a {
   display: inline-block;
   margin: 5px;
+  /* font-size: inherit; */
 }
 
 .wrapper a:first-child {

@@ -12,6 +12,7 @@ import ReactWhatsapp from "react-whatsapp";
 import { PHONE_NO } from "../../contants";
 import { NavBar } from "../../components/NavBar";
 import Footer from "../../components/Footer";
+import { relative } from "path";
 
 const useStyles = makeStyles({
   rootCard: {
@@ -50,11 +51,13 @@ export const ProductPage = ({ productData }) => {
         style={{
           backgroundImage: `url('${productData.main_img}')`,
           backgroundSize: "cover",
-          height: 500,
+          height: 600,
+          overflow: "hidden",
+          position: "relative",
         }}
         className="pt-20"
       >
-        <div className="content-center text-center text-black-500 text-8xl pt-10 font-semibold">
+        <div className="main-title content-center text-center text-black-500 text-8xl pt-10 font-semibold">
           {productData.main_title}
         </div>
       </div>
@@ -124,6 +127,16 @@ export const ProductPage = ({ productData }) => {
 
         <Footer />
       </div>
+
+      <style jsx>
+        {`
+          @media only screen and (max-width: 600px) {
+            .main-title {
+              font-size: 60px;
+            }
+          }
+        `}
+      </style>
     </>
   );
 };
