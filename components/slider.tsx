@@ -7,25 +7,27 @@ export const SliderCorousal: React.FC = ({}) => {
       title: "Welcome to FoodExpress",
 
       description:
-        "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis.",
+        "As a first generation team, Imexplore is the top-notch suppliers of the field. Providing integrate products and focusing on quality in changing global scenario, Imexpore has always added sustainable value to stakeholders.",
       button: "Read More",
       image: "https://i.imgur.com/ZXBtVw7.jpg",
       user: "Luan Gjokaj",
       userProfile: "https://i.imgur.com/JSW6mEk.png",
     },
     {
-      title: "Tortor Dapibus Commodo Aenean Quam",
+      title: "Welcome to FoodExpress",
+
       description:
-        "Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui.",
+        "As a first generation team, Imexplore is the top-notch suppliers of the field. Providing integrate products and focusing on quality in changing global scenario, Imexpore has always added sustainable value to stakeholders.",
       button: "Discover",
       image: "https://i.imgur.com/DCdBXcq.jpg",
       user: "Erich Behrens",
       userProfile: "https://i.imgur.com/0Clfnu7.png",
     },
     {
-      title: "Phasellus volutpat metus",
+      title: "Welcome to FoodExpress",
+
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.",
+        "As a first generation team, Imexplore is the top-notch suppliers of the field. Providing integrate products and focusing on quality in changing global scenario, Imexpore has always added sustainable value to stakeholders.",
       button: "Buy now",
       image: "https://i.imgur.com/DvmN8Hx.jpg",
       user: "Bruno Vizovskyy",

@@ -12,7 +12,7 @@ export const Footer: React.FC<FooterProps> = ({}) => {
           <div className="flex flex-wrap overflow-hidden sm:-mx-1 md:-mx-px lg:-mx-2 xl:-mx-2">
             <div className="w-full overflow-hidden sm:my-1 sm:px-1 sm:w-1/2 md:my-px md:px-px md:w-1/2 lg:my-2 lg:px-2 lg:w-1/4 xl:my-2 xl:px-2 xl:w-1/4 pb-6">
               {/* Column 1 Content */}
-              <div className="text-3xl font-bold">CompanyName</div>
+              <div className="text-3xl font-bold">PRIDE</div>
             </div>
             <div className="w-full overflow-hidden sm:my-1 sm:px-1 sm:w-1/2 md:my-px md:px-px md:w-1/2 lg:my-2 lg:px-2 lg:w-1/4 xl:my-2 xl:px-2 xl:w-1/4 pb-6">
               {/* Column 2 Content */}

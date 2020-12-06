@@ -1,6 +1,6 @@
 import { ProductDetails } from "../types";
 
-export const data: Array<ProductDetails> = [
+export const ProductData: Array<ProductDetails> = [
   {
     product_id: 1,
     main_title: "Spices",
@@ -388,4 +388,16 @@ export const data: Array<ProductDetails> = [
   },
 ];
 
-export default data;
+export function getProductDetails(productId: string): ProductDetails {
+  return ProductData.find((el) => el.product_id.toString() === productId);
+}
+
+export function getAllProductIds() {
+  return ProductData.map((el) => {
+    return {
+      params: {
+        product: el.product_id.toString(),
+      },
+    };
+  });
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import { useRouter } from "next/router";
-import { data } from "../../utils/data";
+import { getAllProductIds, getProductDetails } from "../../utils/data";
 import Card from "@material-ui/core/Card";
 import CardActionArea from "@material-ui/core/CardActionArea";
 import CardContent from "@material-ui/core/CardContent";
@@ -19,7 +19,6 @@ const useStyles = makeStyles({
   },
   media: {
     height: 200,
-    // maxWidth: 250,
   },
   rootGrid: {
     flexGrow: 1,
@@ -35,7 +34,7 @@ const useButtonStyle = makeStyles((theme: Theme) =>
   })
 );
 
-export const ProductPage: React.FC = ({}) => {
+export const ProductPage = ({ productData }) => {
   const classes = useStyles();
   const buttonClass = useButtonStyle();
   const router = useRouter();
@@ -43,30 +42,29 @@ export const ProductPage: React.FC = ({}) => {
     typeof router.query.product === "string"
       ? parseInt(router.query.product)
       : -1;
-  console.log(productId);
 
   return (
     <>
       <NavBar />
       <div
         style={{
-          backgroundImage: `url('${data[productId].main_img}')`,
+          backgroundImage: `url('${productData.main_img}')`,
           backgroundSize: "cover",
           height: 500,
         }}
         className="pt-20"
       >
         <div className="content-center text-center text-black-500 text-8xl pt-10 font-semibold">
-          {data[productId - 1].main_title}
+          {productData.main_title}
         </div>
       </div>
 
       <div className="mt-20 mr-5 ml-10">
         <div className="text-5xl text-center font-bold text-gray-600">
-          {data[productId - 1].semidescription}
+          {productData.semidescription}
         </div>
         <div className="text-lg text-center font-bold text-gray-600">
-          {data[productId - 1].description}
+          {productData.description}
         </div>
       </div>
 
@@ -79,7 +77,7 @@ export const ProductPage: React.FC = ({}) => {
           <Grid container className={classes.rootGrid}>
             <Grid item xs={12}>
               <Grid container justify="center">
-                {data[productId - 1].subproducts.map((value) => (
+                {productData.subproducts.map((value) => (
                   <div className="pt-10 md:ml-10 md:mr-10 lg:ml-10 lg:mt-10 sm:mr-10 sm:ml-10">
                     <Card style={{ width: 200, maxHeight: 250 }}>
                       <CardActionArea>
@@ -111,7 +109,6 @@ export const ProductPage: React.FC = ({}) => {
             left: "auto",
             position: "fixed",
             color: "RGB(255, 255, 255)",
-            // backgroundColor: "#2E8B57",
           }}
         >
           <ReactWhatsapp
@@ -130,5 +127,22 @@ export const ProductPage: React.FC = ({}) => {
     </>
   );
 };
+
+export async function getStaticPaths() {
+  const paths = getAllProductIds();
+  return {
+    paths,
+    fallback: false,
+  };
+}
+
+export async function getStaticProps({ params }) {
+  const productData = getProductDetails(params.product);
+  return {
+    props: {
+      productData,
+    },
+  };
+}
 
 export default ProductPage;
