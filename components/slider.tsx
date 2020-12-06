@@ -9,9 +9,8 @@ export const SliderCorousal: React.FC = ({}) => {
       description:
         "As a first generation team, Imexplore is the top-notch suppliers of the field. Providing integrate products and focusing on quality in changing global scenario, Imexpore has always added sustainable value to stakeholders.",
       button: "Read More",
-      image: "https://i.imgur.com/ZXBtVw7.jpg",
-      user: "Luan Gjokaj",
-      userProfile: "https://i.imgur.com/JSW6mEk.png",
+      image:
+        "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/shopping-bag-full-of-fresh-vegetables-and-fruits-royalty-free-image-1128687123-1564523576.jpg",
     },
     {
       title: "Welcome to FoodExpress",
@@ -19,7 +18,8 @@ export const SliderCorousal: React.FC = ({}) => {
       description:
         "As a first generation team, Imexplore is the top-notch suppliers of the field. Providing integrate products and focusing on quality in changing global scenario, Imexpore has always added sustainable value to stakeholders.",
       button: "Discover",
-      image: "https://i.imgur.com/DCdBXcq.jpg",
+      image:
+        "https://samispices.com/wp-content/uploads/2019/05/samispices-home-02.jpg",
       user: "Erich Behrens",
       userProfile: "https://i.imgur.com/0Clfnu7.png",
     },
@@ -29,7 +29,8 @@ export const SliderCorousal: React.FC = ({}) => {
       description:
         "As a first generation team, Imexplore is the top-notch suppliers of the field. Providing integrate products and focusing on quality in changing global scenario, Imexpore has always added sustainable value to stakeholders.",
       button: "Buy now",
-      image: "https://i.imgur.com/DvmN8Hx.jpg",
+      image:
+        "https://www.fennysdryfruits.com/wp-content/uploads/2019/10/banner1.jpg",
       user: "Bruno Vizovskyy",
       userProfile: "https://i.imgur.com/4KeKvtH.png",
     },

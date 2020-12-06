@@ -20,8 +20,12 @@ export const NavBar: React.FC = ({}) => {
       >
         <div className="my-2 flex items-center xl:flex-grow">
           <Link href="/">
-            <a className="font-semibold text-2xl md:text-4xl flex-grow">
-              PRIDE
+            <img src="/logo2.png" className="lg:w-16 sm:w-14 xs:w-10 logo" />
+          </Link>
+          <Link href="/">
+            <a className="font-semibold text-2xl md:text-4xl flex-grow pl-5">
+              <div>PRIDE</div>
+              <div className="text-lg">Import & Export</div>
             </a>
           </Link>
           <div
@@ -84,6 +88,11 @@ export const NavBar: React.FC = ({}) => {
 
         .nav-open div {
           transform: scale(0);
+        }
+        @media only screen and (max-width: 600px) {
+          .logo {
+            width: 55px;
+          }
         }
       `}</style>
     </>
