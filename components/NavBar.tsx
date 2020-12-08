@@ -14,7 +14,7 @@ export const NavBar: React.FC = ({}) => {
     <>
       <div
         ref={navbar}
-        className={`fixed select-none z-40 w-full h-20 bg-white xl:h-24 flex flex-col justify-start xl:flex-row xl:items-center shadow-lg  px-12 md:px-20 lg:px-32 overflow-hidden ${
+        className={`fixed select-none z-40 w-full h-24 bg-white xl:h-24 flex flex-col justify-start xl:flex-row xl:items-center shadow-lg  px-12 md:px-20 lg:px-32 overflow-hidden ${
           navbarOpen ? `nav-bar-open` : `nav-bar`
         }`}
       >

@@ -47,34 +47,42 @@ export const ProductPage = ({ productData }) => {
   return (
     <>
       <NavBar />
-      <div
-        style={{
-          backgroundImage: `url('${productData.main_img}')`,
-          backgroundSize: "cover",
-          height: 600,
-          overflow: "hidden",
-          position: "relative",
-        }}
-        className="pt-20"
-      >
-        <div className="main-title content-center text-center text-black-500 text-8xl pt-10 font-semibold">
-          {productData.main_title}
-        </div>
-      </div>
 
+      <Fade bottom>
+        <div
+          style={{
+            backgroundImage: `url('${productData.main_img}')`,
+            backgroundSize: "cover",
+            height: 600,
+            overflow: "hidden",
+            position: "relative",
+          }}
+          className="pt-20"
+        >
+          <div className="main-title content-center text-center text-black-500 text-8xl pt-10 font-semibold">
+            {productData.main_title}
+          </div>
+        </div>
+      </Fade>
       <div className="mt-20 mr-5 ml-10">
-        <div className="text-5xl text-center font-bold text-gray-600">
-          {productData.semidescription}
-        </div>
-        <div className="text-lg text-center font-bold text-gray-600">
-          {productData.description}
-        </div>
+        <Fade bottom>
+          <div className="text-5xl text-center font-bold text-gray-600">
+            {productData.semidescription}
+          </div>
+        </Fade>
+        <Fade bottom>
+          <div className="text-lg text-center font-bold text-gray-600">
+            {productData.description}
+          </div>
+        </Fade>
       </div>
 
       <div className="pt-10 bg-gray-100 mt-14">
-        <div className="font-semibold text-gray-600 text-5xl text-center ">
-          Our Products
-        </div>
+        <Fade bottom>
+          <div className="font-semibold text-gray-600 text-5xl text-center ">
+            Our Products
+          </div>
+        </Fade>
 
         <div className="pt-5 mb-5">
           <Grid container className={classes.rootGrid}>

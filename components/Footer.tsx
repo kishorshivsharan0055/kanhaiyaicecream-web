@@ -6,7 +6,6 @@ import CallIcon from "@material-ui/icons/Call";
 import PinDropIcon from "@material-ui/icons/PinDrop";
 import MailIcon from "@material-ui/icons/Mail";
 import Fade from "react-reveal/Fade";
-
 import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
 
 interface FooterProps {}
@@ -21,6 +20,15 @@ const useStyles = makeStyles((theme: Theme) =>
 
 export const Footer: React.FC<FooterProps> = ({}) => {
   const classes = useStyles();
+
+  // const args = {
+  //   number: '9093900003', // String value with the number to call
+  //   prompt: true // Optional boolean property. Determines if the user should be prompt prior to the call
+  // }
+
+  // const call = () => {
+  //   call(args).catch(console.log);
+  // }
 
   return (
     <div>
