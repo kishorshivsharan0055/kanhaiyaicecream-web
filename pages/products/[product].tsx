@@ -12,7 +12,7 @@ import ReactWhatsapp from "react-whatsapp";
 import { PHONE_NO } from "../../contants";
 import { NavBar } from "../../components/NavBar";
 import Footer from "../../components/Footer";
-import { relative } from "path";
+import Fade from "react-reveal/Fade";
 
 const useStyles = makeStyles({
   rootCard: {
@@ -82,20 +82,21 @@ export const ProductPage = ({ productData }) => {
               <Grid container justify="center">
                 {productData.subproducts.map((value) => (
                   <div className="pt-10 md:ml-10 md:mr-10 lg:ml-10 lg:mt-10 sm:mr-10 sm:ml-10">
-                    <Card style={{ width: 200, maxHeight: 250 }}>
-                      <CardActionArea>
-                        <CardMedia
-                          className={classes.media}
-                          image={value.img}
-                          title="Contemplative Reptile"
-                        />
-                        <CardContent className="card-content">
-                          <div className="text-sm text-center">
-                            {value.title}
-                          </div>
-                        </CardContent>
-                      </CardActionArea>
-                    </Card>
+                    <Fade bottom>
+                      <Card style={{ width: 200, maxHeight: 250 }}>
+                        <CardActionArea>
+                          <CardMedia
+                            className={classes.media}
+                            image={value.img}
+                          />
+                          <CardContent className="card-content">
+                            <div className="text-sm text-center">
+                              {value.title}
+                            </div>
+                          </CardContent>
+                        </CardActionArea>
+                      </Card>
+                    </Fade>
                   </div>
                 ))}
               </Grid>

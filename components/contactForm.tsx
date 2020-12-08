@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FormControl, Button } from "@material-ui/core";
 import TextField from "@material-ui/core/TextField";
 import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
+import Fade from "react-reveal/Fade";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -36,55 +37,57 @@ export const ContactForm: React.FC<contactFormProps> = ({}) => {
 
   return (
     <div className="pt-10 items-center">
-      <div></div>
-      <FormControl
-        className="space-y-5"
-        onSubmit={(e) => {
-          e.preventDefault();
-          submitForm({ Name, Phone, Email, Message });
-        }}
-      >
-        <TextField
-          className="w-80"
-          id="name"
-          label="Name"
-          type="text"
-          variant="outlined"
-          onChange={(e) => setName(e.target.value)}
-        />
-        <TextField
-          id="phone"
-          label="Phone No"
-          type="number"
-          variant="outlined"
-          onChange={(e) => setPhone(e.target.value)}
-        />
-        <TextField
-          id="email"
-          label="Email ID"
-          type="text"
-          variant="outlined"
-          onChange={(e) => setEmail(e.target.value)}
-        />
-        <TextField
-          id="message"
-          label="Message"
-          multiline
-          rows={4}
-          variant="outlined"
-          onChange={(e) => setMessage(e.target.value)}
-        />
-
-        <Button
-          variant="contained"
-          color="primary"
-          onClick={(e) => {
+      <Fade bottom>
+        <div></div>
+        <FormControl
+          className="space-y-5"
+          onSubmit={(e) => {
+            e.preventDefault();
             submitForm({ Name, Phone, Email, Message });
           }}
         >
-          Contact Us
-        </Button>
-      </FormControl>
+          <TextField
+            className="w-80"
+            id="name"
+            label="Name"
+            type="text"
+            variant="outlined"
+            onChange={(e) => setName(e.target.value)}
+          />
+          <TextField
+            id="phone"
+            label="Phone No"
+            type="number"
+            variant="outlined"
+            onChange={(e) => setPhone(e.target.value)}
+          />
+          <TextField
+            id="email"
+            label="Email ID"
+            type="text"
+            variant="outlined"
+            onChange={(e) => setEmail(e.target.value)}
+          />
+          <TextField
+            id="message"
+            label="Message"
+            multiline
+            rows={4}
+            variant="outlined"
+            onChange={(e) => setMessage(e.target.value)}
+          />
+
+          <Button
+            variant="contained"
+            color="primary"
+            onClick={(e) => {
+              submitForm({ Name, Phone, Email, Message });
+            }}
+          >
+            Contact Us
+          </Button>
+        </FormControl>
+      </Fade>
     </div>
   );
 };

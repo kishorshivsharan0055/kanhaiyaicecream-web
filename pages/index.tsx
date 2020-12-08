@@ -7,6 +7,7 @@ import { NavBar } from "../components/NavBar";
 import { ProductsSection } from "../components/productsSection";
 import { SliderCorousal } from "../components/slider";
 import { PHONE_NO } from "../contants";
+import Reveal from "react-reveal";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({

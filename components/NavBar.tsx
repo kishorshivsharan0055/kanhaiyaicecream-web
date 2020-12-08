@@ -24,8 +24,9 @@ export const NavBar: React.FC = ({}) => {
           </Link>
           <Link href="/">
             <a className="font-semibold text-2xl md:text-4xl flex-grow pl-5">
-              <div>PRIDE</div>
+              <div className="text-4xl">PRIDE</div>
               <div className="text-lg">Import & Export</div>
+              <div className="text-xs">Your Smile Our Concern</div>
             </a>
           </Link>
           <div

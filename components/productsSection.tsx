@@ -7,6 +7,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import Link from "next/link";
 import React from "react";
+import Fade from "react-reveal/Fade";
 
 interface productsProps {}
 
@@ -72,40 +73,48 @@ export const ProductsSection: React.FC<productsProps> = ({}) => {
 
   return (
     <div className="pt-16 bg-gray-100">
-      <div className="font-semibold text-gray-600 text-5xl text-center ">
-        Our Products
-      </div>
+      <Fade bottom>
+        <div className="font-semibold text-gray-600 text-5xl text-center ">
+          Our Products
+        </div>
+      </Fade>
 
       <div className="pt-16">
         <Grid container className={classes.rootGrid}>
           <Grid item xs={12}>
             <Grid container justify="center">
               {content.map((value) => (
-                <div className="pl-14 pr-14 pt-10 mb-5">
-                  <Card className={classes.rootCard}>
-                    <Link href={`/products/${value.id}`}>
-                      <CardActionArea>
-                        <CardMedia
-                          className={classes.media}
-                          image={value.image}
-                          title="Contemplative Reptile"
-                        />
-                        <CardContent className="card-content hover:bg-black-100">
-                          <Typography gutterBottom variant="h5" component="h2">
-                            {value.title}
-                          </Typography>
-                          <Typography
-                            variant="body2"
-                            component="p"
-                            className="card-content-inner"
-                          >
-                            {value.description}
-                          </Typography>
-                        </CardContent>
-                      </CardActionArea>
-                    </Link>
-                  </Card>
-                </div>
+                <Fade bottom>
+                  <div className="pl-14 pr-14 pt-10 mb-5">
+                    <Card className={classes.rootCard}>
+                      <Link href={`/products/${value.id}`}>
+                        <CardActionArea>
+                          <CardMedia
+                            className={classes.media}
+                            image={value.image}
+                            title="Contemplative Reptile"
+                          />
+                          <CardContent className="card-content hover:bg-black-100">
+                            <Typography
+                              gutterBottom
+                              variant="h5"
+                              component="h2"
+                            >
+                              {value.title}
+                            </Typography>
+                            <Typography
+                              variant="body2"
+                              component="p"
+                              className="card-content-inner"
+                            >
+                              {value.description}
+                            </Typography>
+                          </CardContent>
+                        </CardActionArea>
+                      </Link>
+                    </Card>
+                  </div>
+                </Fade>
               ))}
             </Grid>
           </Grid>
