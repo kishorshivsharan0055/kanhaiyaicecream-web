@@ -20,13 +20,8 @@ export const NavBar: React.FC = ({}) => {
       >
         <div className="my-2 flex items-center xl:flex-grow">
           <Link href="/">
-            <img src="/logo2.png" className="lg:w-16 sm:w-14 xs:w-10 logo" />
-          </Link>
-          <Link href="/">
             <a className="font-semibold text-2xl md:text-4xl flex-grow pl-5">
-              <div className="text-4xl">PRIDE</div>
-              <div className="text-lg">Import & Export</div>
-              <div className="text-xs">Your Smile Our Concern</div>
+              <div className="text-4xl">Food Trading</div>
             </a>
           </Link>
           <div

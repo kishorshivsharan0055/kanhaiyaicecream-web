@@ -38,10 +38,7 @@ export const Footer: React.FC<FooterProps> = ({}) => {
           <div className="flex flex-wrap overflow-hidden ml-5 mr-5 sm:-mx-1 md:-mx-px lg:-mx-2 xl:-mx-2">
             <div className="w-full overflow-hidden sm:my-1 sm:px-1 sm:w-1/2 md:my-px md:px-px md:w-1/2 lg:my-2 lg:px-2 lg:w-1/4 xl:my-2 xl:px-2 xl:w-1/4 pb-6">
               {/* Column 1 Content */}
-              <div className="text-3xl text-white font-bold">PRIDE</div>
-              <div className="text-2xl text-white font-bold">
-                Import & Export
-              </div>
+              <div className="text-3xl text-white font-bold">Food Trading</div>
               <div className="text-sm text-white font-bold">
                 Your Smile Our Concern
               </div>
@@ -121,7 +118,7 @@ export const Footer: React.FC<FooterProps> = ({}) => {
                     className="leading-7 text-sm text-white cursor-pointer"
                   >
                     <MailIcon className={classes.extendedIcon} />
-                    prideimpexp@gmail.com
+                    foodtrading@gmail.com
                   </li>
                   <li
                     id="navi-1"
