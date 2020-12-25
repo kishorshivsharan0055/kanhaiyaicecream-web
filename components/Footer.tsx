@@ -5,7 +5,6 @@ import FacebookIcon from "@material-ui/icons/Facebook";
 import CallIcon from "@material-ui/icons/Call";
 import PinDropIcon from "@material-ui/icons/PinDrop";
 import MailIcon from "@material-ui/icons/Mail";
-import Fade from "react-reveal/Fade";
 import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
 
 interface FooterProps {}
@@ -51,25 +50,24 @@ export const Footer: React.FC<FooterProps> = ({}) => {
               >
                 Products
               </h4>
-              <Fade bottom>
-                <ul className="nav navbar-nav">
-                  <li id="navi-2" className="leading-7 text-sm">
-                    <a className="text-white text-small cursor-pointer">
-                      Fruits{" "}
-                    </a>
-                  </li>
-                  <li id="navi-1" className="leading-7 text-sm">
-                    <a className="text-white text-small cursor-pointer">
-                      Vegetables
-                    </a>
-                  </li>
-                  <li id="navi-1" className="leading-7 text-sm">
-                    <a className="text-white text-small cursor-pointer">
-                      Dry Fruits
-                    </a>
-                  </li>
-                </ul>
-              </Fade>
+
+              <ul className="nav navbar-nav" data-aos="fade-up">
+                <li id="navi-2" className="leading-7 text-sm">
+                  <a className="text-white text-small cursor-pointer">
+                    Fruits{" "}
+                  </a>
+                </li>
+                <li id="navi-1" className="leading-7 text-sm">
+                  <a className="text-white text-small cursor-pointer">
+                    Vegetables
+                  </a>
+                </li>
+                <li id="navi-1" className="leading-7 text-sm">
+                  <a className="text-white text-small cursor-pointer">
+                    Dry Fruits
+                  </a>
+                </li>
+              </ul>
             </div>
             <div className="w-full overflow-hidden sm:my-1 sm:px-1 sm:w-1/2 md:my-px md:px-px md:w-1/2 lg:my-2 lg:px-2 lg:w-1/4 xl:my-2 xl:px-2 xl:w-1/4 pb-6">
               {/* Column 2 Content */}
@@ -79,21 +77,19 @@ export const Footer: React.FC<FooterProps> = ({}) => {
               >
                 Follow Us on
               </h4>
-              <ul className="nav navbar-nav">
-                <Fade bottom>
-                  <li id="navi-2" className="leading-7 text-sm">
-                    <FacebookIcon className={classes.extendedIcon} />
-                    <a className="text-white text-small cursor-pointer">
-                      Facebook
-                    </a>
-                  </li>
-                  <li id="navi-1" className="leading-7 text-sm">
-                    <InstagramIcon className={classes.extendedIcon} />
-                    <a className="text-white text-small cursor-pointer">
-                      Instagram
-                    </a>
-                  </li>
-                </Fade>
+              <ul className="nav navbar-nav" data-aos="fade-up">
+                <li id="navi-2" className="leading-7 text-sm">
+                  <FacebookIcon className={classes.extendedIcon} />
+                  <a className="text-white text-small cursor-pointer">
+                    Facebook
+                  </a>
+                </li>
+                <li id="navi-1" className="leading-7 text-sm">
+                  <InstagramIcon className={classes.extendedIcon} />
+                  <a className="text-white text-small cursor-pointer">
+                    Instagram
+                  </a>
+                </li>
               </ul>
             </div>
             <div className="w-full overflow-hidden sm:my-1 sm:px-1 sm:w-1/2 md:my-px md:px-px md:w-1/2 lg:my-2 lg:px-2 lg:w-1/4 xl:my-2 xl:px-2 xl:w-1/4 pb-6">
@@ -104,30 +100,28 @@ export const Footer: React.FC<FooterProps> = ({}) => {
               >
                 Contact us
               </h4>
-              <ul>
-                <Fade bottom>
-                  <li
-                    id="navi-2"
-                    className="leading-7 text-white text-sm cursor-pointer"
-                  >
-                    <CallIcon className={classes.extendedIcon} />
-                    {PHONE_NO}
-                  </li>
-                  <li
-                    id="navi-1"
-                    className="leading-7 text-sm text-white cursor-pointer"
-                  >
-                    <MailIcon className={classes.extendedIcon} />
-                    foodtrading@gmail.com
-                  </li>
-                  <li
-                    id="navi-1"
-                    className="leading-7 text-sm text-white cursor-pointer"
-                  >
-                    <PinDropIcon className={classes.extendedIcon} />
-                    Shivaji Nagar, Pune, India
-                  </li>
-                </Fade>
+              <ul data-aos="fade-up">
+                <li
+                  id="navi-2"
+                  className="leading-7 text-white text-sm cursor-pointer"
+                >
+                  <CallIcon className={classes.extendedIcon} />
+                  {PHONE_NO}
+                </li>
+                <li
+                  id="navi-1"
+                  className="leading-7 text-sm text-white cursor-pointer"
+                >
+                  <MailIcon className={classes.extendedIcon} />
+                  foodtrading@gmail.com
+                </li>
+                <li
+                  id="navi-1"
+                  className="leading-7 text-sm text-white cursor-pointer"
+                >
+                  <PinDropIcon className={classes.extendedIcon} />
+                  Shivaji Nagar, Pune, India
+                </li>
               </ul>
             </div>
           </div>

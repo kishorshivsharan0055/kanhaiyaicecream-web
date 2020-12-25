@@ -7,7 +7,6 @@ import { NavBar } from "../components/NavBar";
 import { ProductsSection } from "../components/productsSection";
 import { SliderCorousal } from "../components/slider";
 import { PHONE_NO } from "../contants";
-import Reveal from "react-reveal";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -27,16 +26,6 @@ const useStyles = makeStyles((theme: Theme) =>
     },
   })
 );
-// const style = {
-//   margin: 0,
-//   top: "auto",
-//   right: 20,
-//   bottom: 20,
-//   left: "auto",
-//   position: "fixed",
-//   color: "RGB(255, 255, 255)",
-//   backgroundColor: "#2E8B57",
-// };
 
 export default function Home() {
   const classes = useStyles();

@@ -12,7 +12,6 @@ import ReactWhatsapp from "react-whatsapp";
 import { PHONE_NO } from "../../contants";
 import { NavBar } from "../../components/NavBar";
 import Footer from "../../components/Footer";
-import Fade from "react-reveal/Fade";
 
 const useStyles = makeStyles({
   rootCard: {
@@ -48,41 +47,45 @@ export const ProductPage = ({ productData }) => {
     <>
       <NavBar />
 
-      <Fade bottom>
-        <div
-          style={{
-            backgroundImage: `url('${productData.main_img}')`,
-            backgroundSize: "cover",
-            height: 600,
-            overflow: "hidden",
-            position: "relative",
-          }}
-          className="pt-20"
-        >
-          <div className="main-title content-center text-center text-black-500 text-8xl pt-10 font-semibold">
-            {productData.main_title}
-          </div>
+      <div
+        style={{
+          backgroundImage: `url('${productData.main_img}')`,
+          backgroundSize: "cover",
+          height: 600,
+          overflow: "hidden",
+          position: "relative",
+        }}
+        className="pt-20"
+        data-aos="fade-up"
+      >
+        <div className="main-title content-center text-center text-black-500 text-8xl pt-10 font-semibold">
+          {productData.main_title}
         </div>
-      </Fade>
+      </div>
+
       <div className="mt-20 mr-5 ml-10">
-        <Fade bottom>
-          <div className="text-5xl text-center font-bold text-gray-600">
-            {productData.semidescription}
-          </div>
-        </Fade>
-        <Fade bottom>
-          <div className="text-lg text-center font-bold text-gray-600">
-            {productData.description}
-          </div>
-        </Fade>
+        <div
+          className="text-5xl text-center font-bold text-gray-600"
+          data-aos="fade-up"
+        >
+          {productData.semidescription}
+        </div>
+
+        <div
+          className="text-lg text-center font-bold text-gray-600"
+          data-aos="fade-up"
+        >
+          {productData.description}
+        </div>
       </div>
 
       <div className="pt-10 bg-gray-100 mt-14">
-        <Fade bottom>
-          <div className="font-semibold text-gray-600 text-5xl text-center ">
-            Our Products
-          </div>
-        </Fade>
+        <div
+          className="font-semibold text-gray-600 text-5xl text-center "
+          data-aos="fade-up"
+        >
+          Our Products
+        </div>
 
         <div className="pt-5 mb-5">
           <Grid container className={classes.rootGrid}>
@@ -90,21 +93,22 @@ export const ProductPage = ({ productData }) => {
               <Grid container justify="center">
                 {productData.subproducts.map((value) => (
                   <div className="pt-10 md:ml-10 md:mr-10 lg:ml-10 lg:mt-10 sm:mr-10 sm:ml-10">
-                    <Fade bottom>
-                      <Card style={{ width: 200, maxHeight: 250 }}>
-                        <CardActionArea>
-                          <CardMedia
-                            className={classes.media}
-                            image={value.img}
-                          />
-                          <CardContent className="card-content">
-                            <div className="text-sm text-center">
-                              {value.title}
-                            </div>
-                          </CardContent>
-                        </CardActionArea>
-                      </Card>
-                    </Fade>
+                    <Card
+                      style={{ width: 200, maxHeight: 250 }}
+                      data-aos="fade-up"
+                    >
+                      <CardActionArea>
+                        <CardMedia
+                          className={classes.media}
+                          image={value.img}
+                        />
+                        <CardContent className="card-content">
+                          <div className="text-sm text-center">
+                            {value.title}
+                          </div>
+                        </CardContent>
+                      </CardActionArea>
+                    </Card>
                   </div>
                 ))}
               </Grid>
