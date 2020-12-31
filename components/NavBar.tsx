@@ -21,7 +21,8 @@ export const NavBar: React.FC = ({}) => {
         <div className="my-2 flex items-center xl:flex-grow">
           <Link href="/">
             <a className="font-semibold text-2xl md:text-4xl flex-grow pl-5">
-              <div className="text-4xl">Food Trading</div>
+              <div className="text-4xl">KANHAIYA</div>
+              <div className="text-xl">Ice-Cream</div>
             </a>
           </Link>
           <div

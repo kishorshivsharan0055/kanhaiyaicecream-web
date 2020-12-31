@@ -4,33 +4,27 @@ import Slider from "react-animated-slider";
 export const SliderCorousal: React.FC = ({}) => {
   const content = [
     {
-      title: "Welcome to FoodExpress",
+      title: "Welcome to Kanhaiya IceCreams",
 
       description:
         "As a first generation team, Imexplore is the top-notch suppliers of the field. Providing integrate products and focusing on quality in changing global scenario, Imexpore has always added sustainable value to stakeholders.",
       button: "Read More",
-      image:
-        "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/shopping-bag-full-of-fresh-vegetables-and-fruits-royalty-free-image-1128687123-1564523576.jpg",
+      image: "bg2.jpg",
     },
     {
-      title: "Welcome to FoodExpress",
+      title: "",
 
-      description:
-        "As a first generation team, Imexplore is the top-notch suppliers of the field. Providing integrate products and focusing on quality in changing global scenario, Imexpore has always added sustainable value to stakeholders.",
+      description: "",
       button: "Discover",
-      image:
-        "https://samispices.com/wp-content/uploads/2019/05/samispices-home-02.jpg",
-      user: "Erich Behrens",
-      userProfile: "https://i.imgur.com/0Clfnu7.png",
+      image: "bg1.jpg",
     },
     {
-      title: "Welcome to FoodExpress",
+      title: "Welcome to Kanhaiya IceCreams",
 
       description:
         "As a first generation team, Imexplore is the top-notch suppliers of the field. Providing integrate products and focusing on quality in changing global scenario, Imexpore has always added sustainable value to stakeholders.",
       button: "Buy now",
-      image:
-        "https://www.fennysdryfruits.com/wp-content/uploads/2019/10/banner1.jpg",
+      image: "bg2.jpg",
       user: "Bruno Vizovskyy",
       userProfile: "https://i.imgur.com/4KeKvtH.png",
     },

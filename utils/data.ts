@@ -3,119 +3,39 @@ import { ProductDetails } from "../types";
 export const ProductData: Array<ProductDetails> = [
   {
     product_id: 1,
-    main_title: "Spices",
-    main_img:
-      "https://samispices.com/wp-content/uploads/2019/05/samispices-home-02.jpg",
+    main_title: "Kulfi",
+    main_img: "https://i.ytimg.com/vi/lvQn9VNjqkM/maxresdefault.jpg",
     description:
       "Spices and aromatics are the  heart of India. The trade of spices has been an extraordinarily influential factor with an infinite variety of flavors: sweet, sharp, hot, sour, spicy, aromatic, tart, mild, fragrant or pungent, spices are always a striking product for us. The beauty is that Indian spices provide significant health benefits and contribute towards an individual’s healthy life. As an easily available product in India, we’ve already deepened our hands in the Indian market of spices making promising partnerships with dealers.",
     semidescription: "The Handpicked Spices To Enhance Your Taste",
     subproducts: [
       {
-        title: "Turmeric Powder",
-        img: "https://m.media-amazon.com/images/I/51uB5D4tKbL._SL1000_.jpg",
+        title: "Malai Kulfi",
+        img:
+          "https://c.ndtvimg.com/2020-04/0n0vnkm8_kulfi_625x300_13_April_20.jpg",
       },
       {
-        title: "Turmeric Powder",
+        title: "Pista Kulfi",
         img:
-          "https://i1.wp.com/farm2kitchen.com/wp-content/uploads/2019/12/Turmeric-Powder-Farm2Kitchen.jpg?fit=1200%2C1200&ssl=1",
+          "https://5.imimg.com/data5/GX/FX/MY-5317176/pista-kulfi-500x500.jpg",
       },
       {
-        title: "Dried Termeric Roots",
+        title: "Rose Kulfi",
         img:
-          "https://www.herbcyte.com/wp-content/uploads/2019/02/TURMERIC-DRY.jpg",
+          "https://www.sharmispassions.com/wp-content/uploads/2018/03/RoseKulfi1.jpg",
       },
       {
-        title: "Dried Red Chilli",
+        title: "Mango Kuldi",
         img:
-          "https://images-na.ssl-images-amazon.com/images/I/61xJrrtfQGL._SL1000_.jpg",
-      },
-      {
-        title: "Chilli Powder",
-        img:
-          "https://i0.wp.com/www.mrnatures.com/wp-content/uploads/2020/01/redchillipowder.jpeg?fit=500%2C500&ssl=1",
-      },
-      {
-        title: "Black Pepper",
-        img:
-          "https://i.pinimg.com/originals/fb/5b/af/fb5bafbe8aa07fd04ccb3bd196671a6b.jpg",
-      },
-      {
-        title: "Ginger",
-        img:
-          "https://imgk.timesnownews.com/story/ginger-benefits.gif?tr=w-1200,h-900",
-      },
-      {
-        title: "Green Cardomom",
-        img:
-          "https://5.imimg.com/data5/TJ/RP/MY-30302249/cardamom-seeds-500x500.jpg",
-      },
-      {
-        title: "Coriender",
-        img:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9t_5WZnKT04duTswJsQ6acLgeIWItKj_ZFQ&usqp=CAU",
-      },
-      {
-        title: "Cumin",
-        img:
-          "https://gatheringplacetrading.com/wp-content/uploads/2019/01/cumin-seed-organic.jpg",
-      },
-      {
-        title: "Fennel",
-        img:
-          "https://www.savoryspiceshop.com/content/mercury_modules/cart/items/2/7/9/2791/ratio6x5-600.jpg",
-      },
-      {
-        title: "Garlic",
-        img:
-          "https://myrepublica.nagariknetwork.com/uploads/media/GarlicCloves_20200317180251.jpg",
-      },
-      {
-        title: "Curry Leaf",
-        img:
-          "https://assets.epicurious.com/photos/5968ef3a09c9df719089f1b5/6:4/w_1600%2Cc_limit/shutterstock_90706762.jpg",
-      },
-      {
-        title: "Tejpatta (Bay Leaf)",
-        img:
-          "https://i0.wp.com/urbanplatter.in/wp-content/uploads/2018/06/8503-02.jpg?fit=1200%2C1200&ssl=1",
-      },
-      {
-        title: "Clove",
-        img:
-          "https://cdn.britannica.com/27/171027-050-7F7889C9/flower-buds-clove-tree.jpg",
-      },
-      {
-        title: "Mustard Seeds",
-        img:
-          "https://5.imimg.com/data5/LW/OP/AO/SELLER-29628783/black-mustard-seed-500x500.jpg",
-      },
-      {
-        title: "Basil",
-        img:
-          "https://cdn.shopify.com/s/files/1/0284/2450/products/BASILCLASSICITALIAN_1024x.jpg?v=1594988944",
-      },
-      {
-        title: "Star Anise",
-        img:
-          "https://images-na.ssl-images-amazon.com/images/I/61TIGEnm4-L._AC_SL1335_.jpg",
-      },
-      {
-        title: "Fenugreek",
-        img:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM7WWsQDU8BpkavexnL-5Tk21swKPjVV8_FA&usqp=CAU",
-      },
-      {
-        title: "Nutmeg",
-        img:
-          "https://cdn.britannica.com/77/170777-050-3A754B3D/Nutmeg-seeds-ground-spice.jpg",
+          "https://veenaazmanov.com/wp-content/uploads/2014/07/Homemade-Instant-Mango-Kulfi-or-Mango-Ice-Cream-recipe3.jpg",
       },
     ],
   },
   {
     product_id: 2,
-    main_title: "Fruits",
+    main_title: "Ice-Creams",
     main_img:
-      "https://www.diagnosisdiet.com/assets/images/c/fruit-og-d176ef00.jpg",
+      "https://cdn10.bostonmagazine.com/wp-content/uploads/sites/2/2018/06/IceCreamGuideJuly2018_IceCreamsmithcAnthonyAdamick.jpg",
     description:
       "India is the heavy producer of Fruits in the world and is known as the fruit basket of the world. The major fruits grown in India are Mangos, Grapes, Apple, Apricots, Orange, Banana Fresh, Avocados, Guava, lychee, Papaya, Sapota, and Water Melons which have plenty of demand worldwide. We have already established a base in the major fruit-growing states so that we can easily make rarer fruits available no matter what. No importers of ours have to worry about the high demand he offered. Talking about the seasonal fruits that they are simply at a peak in terms of harvest and flavor in a particular season. Eating fruits in their respective seasons has several benefits ranging from economic, nutritional, and even taste.",
     semidescription: "Our Roots Are With Fruits",

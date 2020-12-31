@@ -28,46 +28,50 @@ export const ProductsSection: React.FC<productsProps> = ({}) => {
   var content = [
     {
       id: "1",
-      title: "Spices",
-      image: "/bg/spices.jpg",
+      title: "Kulfi",
+      image:
+        "https://www.sharmispassions.com/wp-content/uploads/2016/06/MalaiKulfi2.jpg",
       description:
         "Spices and aromatics are the  heart of India. The trade of spices has been an extraordinarily influential factor",
     },
     {
       id: "2",
-      title: "Fruits",
-      image: "/bg/fruits.jpg",
+      title: "Ice-Cream",
+      image:
+        "https://joyfoodsunshine.com/wp-content/uploads/2020/06/homemade-chocolate-ice-cream-recipe-7.jpg",
       description:
         "India is the heavy producer of Fruits in the world and is known as the fruit basket of the world",
     },
     {
       id: "3",
-      title: "Vegetables",
-      image: "/bg/vegetables.jpg",
+      title: "Faluda",
+      image:
+        "https://2.bp.blogspot.com/-_B6MpTO1gLk/V49_u7u83DI/AAAAAAAAHAs/57xBISCmiyMqohOAff5rcRwXyfrniidFQCLcB/s640/P7191662-1.jpg",
       description:
         "India ranks second in fruits and vegetable production in the world. We are agreed on the category because vegetables are comfortably",
     },
     {
       id: "4",
-      title: "Dry Fruits",
-      image: "/bg/dry-fruits.jpg",
+      title: "Shakes",
+      image:
+        "https://d36v5spmfzyapc.cloudfront.net/wp-content/uploads/2019/05/IMG_7133-848x424.jpg",
       description:
         "India offers a unique opportunity to fulfill the needs of consumers worldwide. With 20 types of dry fruits, we see a great scope to complete the customer’s needs",
     },
     {
       id: "5",
-      title: "Pulses",
-      image: "/bg/pulses.jpg",
+      title: "Specials",
+      image: "specials.jpg",
       description:
         "Indian pulses are usually available in three types: the whole pulse, the split pulse with the skin on, and the split pulse",
     },
-    {
-      id: "6",
-      title: "Cereals",
-      image: "/bg/cereals.jpg",
-      description:
-        "India is not only the largest producer of cereal but also the largest exporter of the cereal field.",
-    },
+    // {
+    //   id: "6",
+    //   title: "Cereals",
+    //   image: "/bg/cereals.jpg",
+    //   description:
+    //     "India is not only the largest producer of cereal but also the largest exporter of the cereal field.",
+    // },
   ];
 
   return (

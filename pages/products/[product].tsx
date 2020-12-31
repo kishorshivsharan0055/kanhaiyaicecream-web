@@ -58,7 +58,7 @@ export const ProductPage = ({ productData }) => {
         className="pt-20"
         data-aos="fade-up"
       >
-        <div className="main-title content-center text-center text-black-500 text-8xl pt-10 font-semibold">
+        <div className="main-title content-center text-center text-black-700 text-8xl pt-10 font-semibold">
           {productData.main_title}
         </div>
       </div>
