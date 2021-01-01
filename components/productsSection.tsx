@@ -13,7 +13,8 @@ interface productsProps {}
 const useStyles = makeStyles({
   rootCard: {
     maxWidth: 300,
-    height: 320,
+    width: 300,
+    maxHeight: 320,
   },
   media: {
     height: 150,
@@ -31,39 +32,38 @@ export const ProductsSection: React.FC<productsProps> = ({}) => {
       title: "Kulfi",
       image:
         "https://www.sharmispassions.com/wp-content/uploads/2016/06/MalaiKulfi2.jpg",
-      description:
-        "Spices and aromatics are the  heart of India. The trade of spices has been an extraordinarily influential factor",
+      // description: "We have varieties of Kulfi's ",
     },
     {
       id: "2",
       title: "Ice-Cream",
       image:
         "https://joyfoodsunshine.com/wp-content/uploads/2020/06/homemade-chocolate-ice-cream-recipe-7.jpg",
-      description:
-        "India is the heavy producer of Fruits in the world and is known as the fruit basket of the world",
+      // description:
+      //   "India is the heavy producer of Fruits in the world and is known as the fruit basket of the world",
     },
     {
       id: "3",
       title: "Faluda",
       image:
         "https://2.bp.blogspot.com/-_B6MpTO1gLk/V49_u7u83DI/AAAAAAAAHAs/57xBISCmiyMqohOAff5rcRwXyfrniidFQCLcB/s640/P7191662-1.jpg",
-      description:
-        "India ranks second in fruits and vegetable production in the world. We are agreed on the category because vegetables are comfortably",
+      // description:
+      //   "India ranks second in fruits and vegetable production in the world. We are agreed on the category because vegetables are comfortably",
     },
     {
       id: "4",
       title: "Shakes",
       image:
         "https://d36v5spmfzyapc.cloudfront.net/wp-content/uploads/2019/05/IMG_7133-848x424.jpg",
-      description:
-        "India offers a unique opportunity to fulfill the needs of consumers worldwide. With 20 types of dry fruits, we see a great scope to complete the customer’s needs",
+      // description:
+      //   "India offers a unique opportunity to fulfill the needs of consumers worldwide. With 20 types of dry fruits, we see a great scope to complete the customer’s needs",
     },
     {
       id: "5",
       title: "Specials",
       image: "specials.jpg",
-      description:
-        "Indian pulses are usually available in three types: the whole pulse, the split pulse with the skin on, and the split pulse",
+      // description:
+      //   "Indian pulses are usually available in three types: the whole pulse, the split pulse with the skin on, and the split pulse",
     },
     // {
     //   id: "6",
