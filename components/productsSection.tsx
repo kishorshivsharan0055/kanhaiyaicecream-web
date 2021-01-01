@@ -106,7 +106,7 @@ export const ProductsSection: React.FC<productsProps> = ({}) => {
                             component="p"
                             className="card-content-inner"
                           >
-                            {value.description}
+                            {/* {value.description} */}
                           </Typography>
                         </CardContent>
                       </CardActionArea>
