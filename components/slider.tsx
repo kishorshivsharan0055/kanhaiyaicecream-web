@@ -31,7 +31,7 @@ export const SliderCorousal: React.FC = ({}) => {
   ];
 
   return (
-    <div className=" body-slider pt-20">
+    <div className=" body-slider pt-20 object-contain">
       <Slider className="slider-wrapper">
         {content.map((item, index) => (
           <div
@@ -39,6 +39,7 @@ export const SliderCorousal: React.FC = ({}) => {
             className="slider-content"
             style={{
               background: `url('${item.image}') no-repeat center center`,
+              backgroundPosition: "center center",
             }}
           >
             <div className="inner">

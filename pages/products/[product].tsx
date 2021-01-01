@@ -15,7 +15,8 @@ import Footer from "../../components/Footer";
 
 const useStyles = makeStyles({
   rootCard: {
-    maxWidth: 250,
+    maxWidth: 350,
+    width: 300,
   },
   media: {
     height: 200,
@@ -52,10 +53,10 @@ export const ProductPage = ({ productData }) => {
           backgroundImage: `url('${productData.main_img}')`,
           backgroundSize: "cover",
           height: 600,
-          overflow: "hidden",
-          position: "relative",
+          // overflow: "hidden",
+          backgroundPosition: "center center",
         }}
-        className="pt-20"
+        className="pt-20 object-fill"
         data-aos="fade-up"
       >
         <div className="main-title content-center text-center text-black-700 text-8xl pt-10 font-semibold">
@@ -63,7 +64,7 @@ export const ProductPage = ({ productData }) => {
         </div>
       </div>
 
-      <div className="mt-20 mr-5 ml-10">
+      {/* <div className="mt-20 mr-5 ml-10">
         <div
           className="text-5xl text-center font-bold text-gray-600"
           data-aos="fade-up"
@@ -77,9 +78,9 @@ export const ProductPage = ({ productData }) => {
         >
           {productData.description}
         </div>
-      </div>
+      </div> */}
 
-      <div className="pt-10 bg-gray-100 mt-14">
+      <div className="pt-10 bg-gray-100">
         <div
           className="font-semibold text-gray-600 text-5xl text-center "
           data-aos="fade-up"

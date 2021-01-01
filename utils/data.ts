@@ -168,61 +168,26 @@ export const ProductData: Array<ProductDetails> = [
       "Indian pulses are usually available in three types: the whole pulse, the split pulse with the skin on, and the split pulse with the skin removed. India is home to many different varieties of lentils, dried beans, pulses, and legumes and currently growing the production opening export opportunities. Indian pulse production is concentrated in a few states; Madhya Pradesh, Maharashtra, Rajasthan, Uttar Pradesh, Andhra Pradesh, and Karnataka accounted for nearly 80% of the total area that produces and harvests pulses. As Asian markets showed a decrease in imports of pulses, Imexplore’s team will try to export the Indian pulses market to other continents.",
     semidescription: "Get A Flavor Of Nutrition.",
     subproducts: [
-      {
-        title: "Green Gram",
-        img:
-          "https://5.imimg.com/data5/EK/NM/MY-25884273/green-gram-seed-500x500.jpg",
-      },
-      {
-        title: "Black Eyed Beans",
-        img:
-          "https://cdn.shopify.com/s/files/1/1705/0577/products/BLACK_EYE.jpg?v=1577145183",
-      },
-      {
-        title: "Red Lentils",
-        img:
-          "https://5.imimg.com/data5/HV/BJ/JR/SELLER-53925439/red-lentils.jpg",
-      },
-      {
-        title: "Yellow Pigeon Peas",
-        img:
-          "https://currycornermelbourne.com.au/wp-content/uploads/2020/06/Toor-Dal.jpg",
-      },
-    ],
-  },
-  {
-    product_id: 6,
-    main_title: "Cereals",
-    main_img:
-      "https://previews.123rf.com/images/rakratchada/rakratchada1212/rakratchada121200031/16647013-top-views-grain-and-cereal-set-rice-red-rice-wheat-.jpg",
-    description:
-      "India is not only the largest producer of cereal but also the largest exporter of the cereal field. The huge demand for cereals in the global market is creating an excellent environment for the export of Indian exporters. The most common cereals and millets are grown in India are rice, wheat, maize, jawar, and ragi. In the next few years, Economic and population growth are going to increase the demand for food. The structure of demand is also changing so as the diet. These changing phases are going to affect the supply-demand chain of food products. As an early bird Imexplore would have established its foot deep in the market until the time comes. Our early arrival will advantage us and our clients in near future for sure.",
-    semidescription: "Grains Highest Of A Kind",
-    subproducts: [
-      {
-        title: "Wheat",
-        img:
-          "https://www.verywellhealth.com/thmb/ZoA6KJefIB58oJPzbFX-H-Roq1o=/2880x1920/filters:fill(87E3EF,1)/the-wheat-allergy-diet-guide-1324279-primary-recirc-70ef0114e17e4f7b9a1faeab8b516e1e.jpg",
-      },
-      {
-        title: "Millet(Bajra)",
-        img:
-          "https://images-na.ssl-images-amazon.com/images/I/71-lsrwvCoL._SL1500_.jpg",
-      },
-      {
-        title: "Rice",
-        img:
-          "https://cdn.loveandlemons.com/wp-content/uploads/2020/03/how-to-cook-rice.jpg",
-      },
-      {
-        title: "Maize",
-        img: "https://sgmart.co.in/wp-content/uploads/2019/09/MAKKA-SOLAM.jpg",
-      },
-      {
-        title: "Sorghum(Jowar)",
-        img:
-          "https://st2.depositphotos.com/4761309/7289/i/950/depositphotos_72894819-stock-photo-jowar-sorghum-arrange-as-background.jpg",
-      },
+      // {
+      //   title: "Green Gram",
+      //   img:
+      //     "https://5.imimg.com/data5/EK/NM/MY-25884273/green-gram-seed-500x500.jpg",
+      // },
+      // {
+      //   title: "Black Eyed Beans",
+      //   img:
+      //     "https://cdn.shopify.com/s/files/1/1705/0577/products/BLACK_EYE.jpg?v=1577145183",
+      // },
+      // {
+      //   title: "Red Lentils",
+      //   img:
+      //     "https://5.imimg.com/data5/HV/BJ/JR/SELLER-53925439/red-lentils.jpg",
+      // },
+      // {
+      //   title: "Yellow Pigeon Peas",
+      //   img:
+      //     "https://currycornermelbourne.com.au/wp-content/uploads/2020/06/Toor-Dal.jpg",
+      // },
     ],
   },
 ];
