@@ -51,13 +51,26 @@ export const Footer: React.FC<FooterProps> = ({}) => {
 
               <ul className="nav navbar-nav" data-aos="fade-up">
                 <li id="navi-2" className="leading-7 text-sm">
-                  <a className="text-white text-small cursor-pointer">Kulfi </a>
+                  <a
+                    href="/products/1"
+                    className="text-white text-small cursor-pointer"
+                  >
+                    Kulfi{" "}
+                  </a>
                 </li>
                 <li id="navi-1" className="leading-7 text-sm">
-                  <a className="text-white text-small cursor-pointer">Shakes</a>
+                  <a
+                    href="/products/4"
+                    className="text-white text-small cursor-pointer"
+                  >
+                    Shakes
+                  </a>
                 </li>
                 <li id="navi-1" className="leading-7 text-sm">
-                  <a className="text-white text-small cursor-pointer">
+                  <a
+                    href="/products/2"
+                    className="text-white text-small cursor-pointer"
+                  >
                     Ice-Cream
                   </a>
                 </li>

@@ -53,7 +53,6 @@ export const ProductPage = ({ productData }) => {
           backgroundImage: `url('${productData.main_img}')`,
           backgroundSize: "cover",
           height: 600,
-          // overflow: "hidden",
           backgroundPosition: "center center",
         }}
         className="pt-20 object-fill"
@@ -63,22 +62,6 @@ export const ProductPage = ({ productData }) => {
           {productData.main_title}
         </div>
       </div>
-
-      {/* <div className="mt-20 mr-5 ml-10">
-        <div
-          className="text-5xl text-center font-bold text-gray-600"
-          data-aos="fade-up"
-        >
-          {productData.semidescription}
-        </div>
-
-        <div
-          className="text-lg text-center font-bold text-gray-600"
-          data-aos="fade-up"
-        >
-          {productData.description}
-        </div>
-      </div> */}
 
       <div className="pt-10 bg-gray-100">
         <div
