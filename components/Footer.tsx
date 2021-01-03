@@ -147,7 +147,7 @@ export const Footer: React.FC<FooterProps> = ({}) => {
             </div>
           </div>
           {/* Start footer bottom */}
-          <div
+          {/* <div
             className="pt-4 md:flex md:items-center md:justify-center "
             style={{ borderTop: "1px solid white" }}
           >
@@ -156,34 +156,18 @@ export const Footer: React.FC<FooterProps> = ({}) => {
                 className="md:mx-2 md:inline leading-7 text-sm "
                 id="footer-navi-2"
               >
-                <a
-                  className="text-white underline text-small"
-                  href="/disclaimer"
-                >
-                  Disclaimer
-                </a>
-              </li>
-              {/* <li
-                className="md:mx-2 md:inline leading-7 text-sm"
-                id="footer-navi-2"
-              >
-                <a className="text-white underline text-small" href="/cookie">
-                  Cookie policy
-                </a>
-              </li> */}
-              <li
-                className="md:mx-2 md:inline leading-7 text-sm"
-                id="footer-navi-2"
-              >
-                <a className="text-white underline text-small" href="/privacy">
-                  Privacy Policy
+                <a className="text-white text-lg">
+                  Developed By Kishor Shivsharan
                 </a>
               </li>
             </ul>
-          </div>
-          {/* <div className="md:items-center md:justify-center md:flex text-white">
-            <div>Developed by Kishor Shivsharan</div>
           </div> */}
+          <div
+            className="md:items-center md:justify-center text-center md:flex text-white"
+            style={{ borderTop: "1px solid white" }}
+          >
+            <div>Developed by Kishor Shivsharan</div>
+          </div>
           {/* end container */}
         </div>
       </nav>
