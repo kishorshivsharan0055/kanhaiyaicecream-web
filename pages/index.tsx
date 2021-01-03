@@ -1,10 +1,11 @@
 import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
 import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 import ReactWhatsapp from "react-whatsapp";
-import ContactForm from "../components/contactForm";
+// import ContactForm from "../components/contactForm";
 import Footer from "../components/Footer";
 import { NavBar } from "../components/NavBar";
 import { ProductsSection } from "../components/productsSection";
+// import Services from "../components/Services";
 import { SliderCorousal } from "../components/slider";
 import { PHONE_NO } from "../contants";
 
@@ -59,9 +60,9 @@ export default function Home() {
         />
       </div>
 
-      <div className="items-center mb-5 pl-5 pr-5">
+      {/* <div className="items-center mb-5 pl-5 pr-5">
         <ContactForm />
-      </div>
+      </div> */}
       <Footer />
     </>
   );

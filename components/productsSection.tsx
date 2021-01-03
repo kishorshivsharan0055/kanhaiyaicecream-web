@@ -95,7 +95,6 @@ export const ProductsSection: React.FC<productsProps> = ({}) => {
                         <CardMedia
                           className={classes.media}
                           image={value.image}
-                          title="Contemplative Reptile"
                         />
                         <CardContent className="card-content hover:bg-black-100">
                           <Typography gutterBottom variant="h5" component="h2">

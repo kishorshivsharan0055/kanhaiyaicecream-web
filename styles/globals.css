@@ -116,7 +116,7 @@ button:hover {
 
 .slider-wrapper {
   position: relative;
-  height: 70vh;
+  height: 65vh;
   overflow: hidden;
 }
 
@@ -149,8 +149,8 @@ button:hover {
   top: 50%;
   transform: translateY(-50%);
   z-index: 10;
-  background: url("http://svgshare.com/i/41_.svg") no-repeat center center /
-    16px;
+  /* background: url("http://svgshare.com/i/41_.svg") no-repeat center center / */
+  /* 16px; */
   width: 32px;
   height: 32px;
   text-indent: -9999px;
@@ -159,8 +159,8 @@ button:hover {
 
 .previousButton:hover,
 .nextButton:hover {
-  background: url("http://svgshare.com/i/41_.svg") no-repeat center center /
-    16px;
+  /* background: url("http://svgshare.com/i/41_.svg") no-repeat center center /
+    16px; */
 }
 
 .previousButton {
